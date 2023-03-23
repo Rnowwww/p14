@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+  <title>Wild Fried Clicker</title>
+
+</head>
+
+<body>
+
+  <div class="mainAndShop">
+
+    <div class="mainPage" id="mainPage">
+
+      <div class="navigationButtonsMain">
+        <a href="shop.html"><input type="image" name="button" id="shopButton" src="resources/images/1BASKET.png"></a>
+        <a href="inventory.html"><input type="image" name="button" id="invButton1" src="resources/images/1MONEY BAG.png"></a>
+      </div>
+
+      <div class="title">
+        <h1 class="laptopTitleWFC">WILD FRIED CLICKER</h1>
+      </div>
+
+      <div class="wingsNumber">
+        <h2 class="wingsNumber"><span id="wings_counter"></span> wings</h2>
+      </div>
+
+      <div class="fallingImages">
+        <h3 class="firstPlusOne" id="firstPlus">🦴</h3>
+        <img name="firstWing" src="resources/images/1tender.png" alt="tender">
+        <h3 class="secondPlusOne" id="secondPlus">🦴</h3>
+        <img name="secondWing" src="resources/images/1TENDER (1).png" alt="">
+        <h3 class="thirdPlusOne" id="thirdPlus">🦴</h3>
+      </div>
+
+      <div class="bucket">
+        <input id="bucket" type="image" name="bucket" src="resources/images/1BUCKET.png" alt="bucket">
+      </div>
+
+    </div>
+
+
+    <div class="shopPage" id="shopPage">
+
+      <div class="navigationButtonsMain">
+        <a href="main.html"><input type="image" name="button" id="mainButton1" src="resources/images/gold.png"></a>
+      </div>
+
+      <div class="title">
+        <h1>SHOP</h1>
+      </div>
+
+      <div class="goods">
+        <div class="row" class="rowOne" id="facebookStr" name="shopRow">
+          <h2 id="textGoods">chicken sacrifices</h2><h4>+10</h4>
+        </div>
+        <div class="row" class="rowTwo" id="twitterStr" name="shopRow">
+          <h2 id="textGoods">colonel's workshop</h2><h4>+100</h4>
+        </div>
+        <div class="row" class="rowThree" id="uberEatsStr" name="shopRow">
+          <h2 id="textGoods">catch 'em all</h2><h4>+500</h4>
+        </div>
+        <div class="row" class="rowFour" id="quizzStr" name="shopRow">
+          <h2 id="textGoods">magic trick</h2>
+        </div>
+      </div>
+
+      <div class="chicken">
+        <img class="chicken" name="chickenImg" src="resources/images/chicken.png">
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="inventoryPage" id="inventoryPage">
+    <div class="navigationButtonsMain">
+      <a href="main.html"><input type="image" name="button" id="mainButton2" src="resources/images/gold.png"></a>
+    </div>
+
+    <div class="title">
+      <h1>INVENTORY</h1>
+    </div>
+
+    <div class="goods">
+      <div class="row" class="inventoryRow" class="rowOne">
+        <img id="faceOne" class="faceImg" style="opacity: 0" src="resources/images/photos/elea.png" alt="">
+        <img id="faceTwo" class="faceImg" style="opacity: 0" src="resources/images/photos/benoit.png" alt="">
+        <img id="faceThree" class="faceImg" style="opacity: 0" src="resources/images/photos/maxime.png" alt="">
+      </div>
+      <div class="row" class="inventoryRow" class="rowTwo">
+        <img id="faceFour" class="faceImg" style="opacity: 0" src="resources/images/photos/pierre.png" alt="">
+        <img id="faceFive" class="faceImg" style="opacity: 0" src="resources/images/photos/souhael.png" alt="">
+        <img id="faceSix" class="faceImg" style="opacity: 0" src="resources/images/photos/olesia.png" alt="">
+      </div>
+      <div class="row" class="inventoryRow" class="rowFour">
+        <img id="faceSeven" class="faceImg" style="opacity: 0" src="resources/images/photos/leticia.png" alt="">
+        <img id="faceEight" class="faceImg" style="opacity: 0" src="resources/images/photos/emillie.png" alt="">
+        <img class="faceImg" style="opacity: 0" src="resources/images/photos/olesia.png" alt="">
+      </div>
+      <div class="row" class="inventoryRow" class="rowTwo">
+        <img class="faceImg" style="opacity: 0" src="resources/images/photos/pierre.png" alt="">
+        <img class="faceImg" style="opacity: 0" src="resources/images/photos/souhael.png" alt="">
+        <img class="faceImg" style="opacity: 0" src="resources/images/photos/olesia.png" alt="">
+      </div>
+    </div>
+
+    <div class="colonel">
+      <img id="colonel" name="colonel" src="resources/images/colonel.webp" onclick="play()">
+      <a href="settings.html"><img name="settingsMain" src="resources/images/1SETTINGS.png"></a>
+    </div>
+  </div>
+
+
+  <div class="settingsPage" id="settingsPage">
+    <div class="navigationButtonsMain">
+      <a href="inventory.html"><input type="image" name="button" id="invButton2" src="resources/images/gold.png"></a>
+    </div>
+
+    <div class="title">
+      <h1>Settings</h1>
+    </div>
+
+    <div class="goods">
+      <div class="row" class="rowOne">
+        <h2>Profile</h2>
+      </div>
+      <div class="row" class="rowTwo">
+        <h2>Sound</h2>
+      </div>
+      <div class="row" class="rowThree">
+        <h2>Notifications</h2>
+      </div>
+      <div class="row" class="rowFour">
+        <h2>Credits</h2>
+      </div>
+    </div>
+
+    <div class="chicken">
+      <img name="chickenImg" src="resources/images/chicken.png">
+    </div>
+  </div>
+
+
+  <script src="resources/js/main/gatherDom.js"></script>
+  <script src="resources/js/main/variables.js"></script>
+  <script src="resources/js/main/function.js"></script>
+  <script src="resources/js/main/buttonAssociations.js"></script>
+  <script src="resources/js/main/gameloop.js"></script>
+  <script src="resources/js/main/animations.js"></script>
+
+
+</body>
+
+</html>

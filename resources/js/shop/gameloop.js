@@ -1,0 +1,2 @@
+showingStuffToBuy();
+showingAllPhotos();

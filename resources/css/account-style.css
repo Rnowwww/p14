@@ -1,0 +1,439 @@
+/* VARIABLES */
+:root {
+    --backgroundLight: #0E9AA7;
+    --backgroundClassic: #AD4560;
+    --sectionColor: #FF5245;
+    --accountSectionColor:#FF5245;
+    --inputColor: #FABB5A;
+    --textColor: #ffffff;
+    --ptextColor: #ffffff;
+    --ptextFont: 'Barrio', cursive;
+    --textFont: 'Barrio', cursive;
+    --title-Font: 'Rampart One', cursive;
+    --h1Size: 35px;
+    --h2Size: 30px;
+}
+
+/* COMMON STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--backgroundClassic);
+    margin: 75px 25px;
+}
+
+div.navigationButtonsMain {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5vh 7vh 5vh;
+}
+
+input[name="button"],
+input[name="button"] {
+    width: 70px;
+    height: auto;
+}
+
+h1 {
+    color: var(--textColor);
+    font-family: var(--textFont);
+    font-size: var(--h1Size);
+}
+
+h2 {
+    color: var(--textColor);
+    font-family: var(--textFont);
+    font-size: var(--h2Size);
+}
+
+div.title {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 5vh 3vh 5vh;
+}
+
+div.goods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.row {
+    background-color: var(--sectionColor);
+    width: 350px;
+    height: 100px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto 2vh auto;
+}
+
+img[name="chickenImg"] {
+    height: 200px;
+    width: auto;
+}
+
+/* MAIN STYLES */
+div.mainPage {
+    background-color: var(--backgroundLight);
+    width: 100vw;
+    height: 100vh;
+}
+
+div.wingsNumber {
+    display: flex;
+    justify-content: center;
+}
+
+div.fallingImages {
+    display: flex;
+    justify-content: center;
+    margin: 10vh 5vh 10vh 5vh;
+}
+
+img[name="firstWing"] {
+    height: 100px;
+    width: auto;
+    opacity: 0;
+}
+
+img[name="secondWing"] {
+    height: 100px;
+    width: auto;
+}
+
+.bucket {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+}
+
+/* SHOP STYLES */
+div.shopChicken {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* INVENTORY STYLES */
+img.faceImg {
+    height: 80px;
+    width: auto;
+}
+
+div.colonel {
+    display: flex;
+    justify-content: center;
+}
+
+img[name="colonel"] {
+    height: 200px;
+    width: auto;
+}
+
+/* SETTINGS STYLES */
+
+
+
+
+
+/* ACCOUNT STYLES */
+
+
+.exit-account {
+   display: flex;
+   width:100%;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:5vh;
+   margin-bottom: 7vh;
+
+}
+
+#exit-account {
+    margin-left: 35px;
+}
+
+
+div.title {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 1vh 3vh 1vh;
+
+}
+
+
+
+h1 {
+    font-family: var(--title-Font);
+    font-size: 34px;
+}
+
+.form-container {
+    background-color:var(--accountSectionColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    border-radius: 35px;
+    margin: auto auto 2vh auto;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--textColor);
+
+    height: 220px;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: var(--inputColor);
+    border: none;
+    border-radius: 35px;
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+.check-container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:auto;
+    width:90%;
+}
+
+
+.agree-text {
+    padding-top:20px;
+    margin:auto;
+    font-family: var(--ptextFont);
+
+}
+
+p {
+    font-size: 13px;
+    color: var(--ptextColor);
+    font-family: var(--ptextFont);
+
+}
+
+.button-check {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+#check-button-empty{
+  display: flex;
+}
+
+#check {
+    width: 25px;
+    opacity: 100;
+
+} 
+
+.or-container {
+    display: flex;
+    justify-content: center;
+}
+
+.account-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 280px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo-facebook-account {
+    width: 60px;
+}
+
+#logo-twitter-account {
+    width: 60px;
+}
+
+
+
+
+
+/* LAPTOP MEDIA QUERY */
+
+@media screen and (min-width: 1200px) {
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    h1.laptopTitleWFC {
+        margin: 5vh auto;
+        font-size: 60px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    div.mainAndShop {
+        display: flex;
+        width: 75vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    div.mainPage {
+        width: 50vw;
+        height: 100vh;
+    }
+
+    div.shopPage {
+        width: 25vw;
+        height: 100vh;
+    }
+
+    div.inventoryPage {
+        width: 25vw;
+        height: 100vh;
+    }
+
+    div.settingsPage {
+        display: none;
+    }
+
+    div.bucket {
+        display: flex;
+        justify-content: center;
+        height: 30vh;
+    }
+
+    div.row {
+        width: 250px;
+        height: 70px;
+        margin: auto auto 2vh auto;
+    }
+
+    input[name="button"] {
+        display: none;
+    }
+
+    img[name="firstWing"] {
+        height: 120px;
+        width: auto;
+        opacity: 0;
+    }
+
+    img[name="chickenImg"] {
+        height: 150px;
+        width: auto;
+        margin: 30px;
+    }
+
+    img[name="colonel"] {
+        height: 160px;
+        width: auto;
+    }
+}
+
+img.faceImg {
+    height: 60px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ANIMATION */
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-3deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(3deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(-3deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(3deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-3deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(3deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-3deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(3deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-3deg);
+    }
+}
+
+input[name="bucket"] {
+    animation: shake;
+    animation-duration: 0.60s;
+    animation-iteration-count: 4;
+}
+
+input[name="bucket"]:hover {
+    animation: shake;
+    animation-duration: 0.60s;
+    animation-iteration-count: infinite;
+}

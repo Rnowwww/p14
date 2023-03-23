@@ -1,0 +1,63 @@
+///////////////////////////////////////////////////////////////////////
+Ideas :
+///////////////////////////////////////////////////////////////////////
+
+
+music country:
+Need to click in rythm of the music to double you gain
+Feedback with stars that tell you you did good
+
+
+
+Level :
+Increase level everytime you reach number of cookies
+
+
+Gallery :
+After you reach certain level, you earn a collectable (Classroom's mate pictures from slack)
+You can purchase them in the store (real money or cookies)
+
+
+Store :
+You can buy cookies with real money
+Subscribe to earn cookies but second or instant
+
+Daily Rewards :
+
+
+Arbre de compétence (visible ou pas >> plus simple) :
+
+
+Personnalisation du bucket et du fond grace aux photos collectibles :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////
+Not to forget :
+///////////////////////////////////////////////////////////////////////
+
+Feedback to say : "Click here" "You click in rythm"
+#cookieImages:active {
+  max-height: 155px;
+  cursor: pointer;
+
+}
+
+LocalStorage Js
+
+
+
+

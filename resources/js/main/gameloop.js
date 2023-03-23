@@ -1,0 +1,3 @@
+wingsDisplay();
+showingStuffToBuy();
+showingAllPhotos();
